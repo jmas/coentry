@@ -6,6 +6,12 @@ Coentry CMS is focused on REST collection-entry managing.
 
 UI should be very similar as ([UI on this video](https://www.youtube.com/watch?v=QixcGyrZA94)).
 
+# Setup
+
+1. `npm install`
+2. `composer install`
+3. `gulp`
+
 # API
 
 ## `GET /{collection}`
