@@ -14,9 +14,17 @@ UI should be very similar as ([UI on this video](https://www.youtube.com/watch?v
 
 # API
 
+## `GET /fields`
+
+Get aviable fields.
+
 ## `GET /{collection}`
 
 Get collection options and entries include pagination.
+
+## `GET /{collection}/fields`
+
+Get collection fields.
 
 ## `GET /{collection}/{entry}`
 
