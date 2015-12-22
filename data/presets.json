@@ -1,0 +1,50 @@
+[
+  {
+    "name": "users",
+    "label": "Users",
+    "fields": [
+      {
+        "name": "name",
+        "label": "User Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "photo",
+        "label": "User Photo",
+        "type": "image",
+        "required": false
+      }
+    ]
+  },
+  {
+    "name": "blog-posts",
+    "label": "Blog Posts",
+    "fields": [
+      {
+        "name": "title",
+        "label": "Post Title",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "content",
+        "label": "Post Content",
+        "type": "richText",
+        "required": true
+      },
+      {
+        "name": "main-image",
+        "label": "Post Main Image",
+        "type": "image",
+        "required": false
+      },
+      {
+        "name": "author",
+        "label": "Post Author",
+        "type": "entry",
+        "collection": "users"
+      }
+    ]
+  }
+]
